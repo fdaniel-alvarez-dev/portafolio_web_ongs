@@ -22,7 +22,7 @@ Este proyecto proporciona una solución WordPress optimizada específicamente pa
 
 ## Instalación
 
-1. Descarga la última versión desde la [página de lanzamientos](https://github.com/ejemplo/wordpress-ong/releases)
+1. Descarga la última versión desde [wordpress]([https://github.com/ejemplo/wordpress-ong/releases](https://wordpress.org/download/releases/6-5/))
 2. Descomprime el archivo en tu servidor web
 3. Crea una base de datos MySQL para tu instalación
 4. Visita la URL del sitio en tu navegador y sigue el asistente de instalación
@@ -40,7 +40,7 @@ Esta distribución incluye plugins esenciales para ONGs:
 
 ## Personalización
 
-Consulta nuestra [Guía Completa: Publicación de Documentación de WordPress para ONGs en GitHub](https://github.com/ejemplo/wordpress-ong/docs) para obtener instrucciones detalladas sobre cómo:
+A continuacion alguns puntos importantes referentes a la personalización:
 
 - Personalizar la apariencia según la identidad de tu organización
 - Configurar formularios de donación y campañas de recaudación
