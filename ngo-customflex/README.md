@@ -1,6 +1,3 @@
-Claro, aquí tienes el contenido formateado:
-
----
 
 # 🌟 NGO CustomFlex - Flexible WordPress Solution for Non-Profits
 
@@ -139,5 +136,3 @@ NGO CustomFlex se distribuye bajo la **Licencia GPL v3.0**. Consulta el archivo 
 - **Elementor**  
 - **GiveWP**  
 - Todas las organizaciones que inspiraron esta herramienta.  
-
----
