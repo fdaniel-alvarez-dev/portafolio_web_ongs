@@ -1,0 +1,24 @@
+Create dedicated post types for:
+    Projects/initiatives
+    Team members
+    Testimonials
+    Impact stories
+
+// Example code for custom post type
+function create_project_post_type() {
+    register_post_type('ngo_project',
+        array(
+            'labels' => array(
+                'name' => __('Projects'),
+                'singular_name' => __('Project')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+            'menu_icon' => 'dashicons-heart',
+        )
+    );
+}
+add_action('init', 'create_project_post_type');
+
+
