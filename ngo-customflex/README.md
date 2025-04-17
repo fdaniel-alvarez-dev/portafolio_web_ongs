@@ -99,7 +99,7 @@ Estamos comprometidos con la mejora continua de NGO CustomFlex. Algunas funcione
 ### Flujo de Trabajo para Desarrolladores
 ```bash
 # Clonar el repositorio
-git clone https://github.com/your-username/ngo-customflex.git
+git clone https://github.com/fdaniel-alvarez-dev/portafolio_web_ongs/ngo-customflex.git
 cd ngo-customflex
 
 # Instalar dependencias
