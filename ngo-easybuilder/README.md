@@ -1,323 +1,204 @@
-NGO EasyBuilder - WordPress Plugin para ONGs
-
-Descripción General
-
-NGO EasyBuilder es un plugin de WordPress diseñado específicamente para organizaciones no gubernamentales (ONGs) que necesitan una solución sencilla y efectiva para crear y administrar sitios web. Este plugin ofrece herramientas especializadas que atienden las necesidades únicas del sector sin fines de lucro, permitiendo a estas organizaciones establecer una presencia digital profesional sin requerir amplios conocimientos técnicos.
-
-Características Principales
-
-Plantillas Especializadas para ONGs
-
-Diseños predefinidos para páginas de donaciones
-
-Plantillas para presentación de proyectos y causas
-
-Formatos optimizados para historias de impacto social
-
-Opciones de diseño adaptadas a diferentes tipos de organizaciones
-
-Sistema de Donaciones Integrado
-
-Procesamiento de pagos seguro
-
-Opciones para donaciones recurrentes y únicas
-
-Emisión automática de recibos y agradecimientos
-
-Seguimiento de campañas de recaudación de fondos
-
-Gestión de Voluntarios
-
-Formularios personalizables para registro de voluntarios
-
-Calendarios de eventos y actividades
-
-Sistema de coordinación de equipos
-
-Herramientas para seguimiento de horas voluntarias
-
-Transparencia y Rendición de Cuentas
-
-Visualización de datos financieros
-
-Informes de impacto automáticos
-
-Publicación simplificada de memorias anuales
-
-Dashboards para compartir resultados con donantes
-
-Beneficios
-
-Facilidad de uso: Interfaz intuitiva diseñada para usuarios no técnicos
-
-Ahorro de recursos: Elimina la necesidad de contratar desarrolladores web especializados
-
-Cumplimiento normativo: Adaptado a requisitos legales para organizaciones sin fines de lucro
-
-Optimización SEO: Mejora la visibilidad online de la organización
-
-Responsive design: Funciona perfectamente en dispositivos móviles y tablets
-
-Requisitos Técnicos
-
-WordPress 5.0 o superior
-
-PHP 7.2 o superior
-
-Compatibilidad con los principales temas de WordPress
-
-Espacio de almacenamiento según volumen de contenido
-
-Instalación y Configuración
-
-Descargue el plugin desde el repositorio oficial de WordPress
-
-Instale y active el plugin desde el panel de administración
-
-Complete el asistente de configuración inicial
-
-Personalice las opciones según las necesidades de su organización
-
-¡Comience a utilizar las herramientas especializadas!
-
-Soporte y Comunidad
-
-NGO EasyBuilder cuenta con una comunidad activa de usuarios y un equipo de soporte dedicado a ayudar a las organizaciones a aprovechar al máximo esta herramienta. Los recursos disponibles incluyen documentación completa, tutoriales en video y un foro de usuarios donde compartir experiencias y mejores prácticas.
-
-Conclusión
-
-NGO EasyBuilder representa una solución tecnológica accesible y potente para organizaciones que buscan maximizar su impacto digital con recursos limitados. Al simplificar la creación y gestión de sitios web profesionales, este plugin permite a las ONGs centrar sus esfuerzos en lo que realmente importa: su misión social.# NGO EasyBuilder
-
-   
-
-Un Plugin WordPress Especializado para Organizaciones No Gubernamentales
-
-NGO EasyBuilder es un plugin WordPress diseñado específicamente para simplificar la creación y gestión de sitios web para organizaciones sin fines de lucro. Con características optimizadas para campañas, donaciones, gestión de voluntarios y más, este plugin potencia tu sitio web de ONG sin complicaciones técnicas.
-
-¿ Características Principales
-
-Sistema de Donaciones Completo
-
-Formularios de donación personalizables
-
-Integración con pasarelas de pago populares
-
-Gestión de donaciones recurrentes
-
-Informes y análisis de recaudación
-
-Gestión de Voluntarios
-
-Registro y seguimiento de voluntarios
-
-Asignación de proyectos y tareas
-
-Calendario de disponibilidad
-
-Reconocimiento y seguimiento de horas
-
-Widgets para Elementor
-
-Bloques personalizados para ONGs
-
-Contadores de impacto
-
-Sliders de proyectos
-
-Formularios de donación interactivos
-
-Tipos de Contenido Personalizados
-
-Proyectos
-
-Campañas
-
-Eventos
-
-Testimonios
-
-Informes de impacto
-
-¿ Requisitos
-
-WordPress 6.0 o superior
-
-PHP 7.4 o superior
-
-Plugin Elementor (versión gratuita o Pro)
-
-Configuración de permalinks distinta a la predeterminada
-
-¿ Instalación
-
-Descarga el archivo ZIP del plugin desde GitHub
-
-En tu panel de WordPress, ve a Plugins > Añadir nuevo > Subir plugin
-
-Selecciona el archivo ZIP descargado y haz clic en "Instalar ahora"
-
-Activa el plugin desde la sección de plugins instalados
-
-Alternativamente, puedes instalar el plugin vía FTP:
-
-# Conecta a tu servidor vía FTP y navega al directorio de plugins
-cd /wp-content/plugins/
-
-# Clona el repositorio
-git clone https://github.com/fdaniel-alvarez-dev/portafolio_web_ongs.git
-
-# Accede al directorio del plugin
-cd portafolio_web_ongs/ngo-easybuilder/
-
-
-¿ Uso del Plugin
-
-Configuración Inicial
-
-Después de activar el plugin, navega a "NGO EasyBuilder" en el menú principal de WordPress
-
-Completa la información de tu organización en la página de configuración
-
-Configura las integraciones de pago desde la pestaña "Donaciones"
-
-Personaliza los ajustes de correo electrónico para notificaciones
-
-Sistema de Donaciones
-
-El módulo de donaciones está implementado en la clase
-
-class-donation-system.php
-
- y proporciona:
-
-
-
-Formularios de donación embedibles en cualquier página
-
-Panel de administración para revisión de donaciones
-
-Generación automática de recibos fiscales
-
-Análisis de patrones de donación
-
-Ejemplo de uso del shortcode de donación:
-
-[ngo_donation_form amount="50,100,200" recurring="true" campaign="agua-limpia"]
-
-
-Gestión de Voluntarios
-
-El sistema de gestión de voluntarios (
-
-class-volunteer-manager.php
-
-) permite:
-
-
-
-Crear perfiles de voluntarios con habilidades e intereses
-
-Programar eventos y asignar voluntarios
-
-Seguimiento de horas y generación de certificados
-
-Comunicación grupal con voluntarios por proyecto
-
-Personalización Avanzada
-
-Para desarrolladores que deseen extender la funcionalidad, el archivo
-
+# NGO EasyBuilder - WordPress Plugin for NGOs
+
+## Overview
+
+NGO EasyBuilder is a WordPress plugin specifically designed for non-governmental organizations (NGOs) that require an easy and effective solution to create and manage websites. This plugin offers specialized tools tailored to the unique needs of the non-profit sector, enabling organizations to establish a professional digital presence without requiring extensive technical expertise.
+
+---
+
+## Key Features
+
+### Specialized Templates for NGOs
+- Predefined designs for donation pages
+- Templates for showcasing projects and causes
+- Optimized formats for highlighting social impact stories
+- Design options adaptable to various types of organizations
+
+### Integrated Donation System
+- Secure payment processing
+- Options for both recurring and one-time donations
+- Automatic issuance of receipts and thank-you messages
+- Fundraising campaign tracking and reporting
+
+### Volunteer Management
+- Customizable forms for volunteer registration
+- Event and activity calendars
+- Team coordination system
+- Tools to track volunteer hours and contributions
+
+### Transparency and Accountability
+- Visualization of financial data
+- Automatic impact reporting
+- Simplified publication of annual reports
+- Dashboards to share results with donors
+
+---
+
+## Benefits
+
+- **Ease of Use**: Intuitive interface designed for non-technical users.
+- **Resource Efficiency**: Eliminates the need to hire specialized web developers.
+- **Regulatory Compliance**: Meets legal requirements for non-profit organizations.
+- **SEO Optimization**: Enhances the organization's online visibility.
+- **Responsive Design**: Works seamlessly on mobile devices and tablets.
+
+---
+
+## Technical Requirements
+
+- **WordPress Version**: 6.0 or higher
+- **PHP Version**: 7.4 or higher
+- **Required Plugins**: Elementor (Free or Pro version)
+- **Permalinks**: Must be set to a structure other than default
+- **Storage**: Adequate for content volume
+
+---
+
+## Installation and Setup
+
+### Installation via WordPress Dashboard
+1. Download the plugin ZIP file from the [official GitHub repository](https://github.com/fdaniel-alvarez-dev/portafolio_web_ongs).
+2. Navigate to `Plugins > Add New > Upload Plugin` in the WordPress admin panel.
+3. Select the downloaded ZIP file and click **Install Now**.
+4. Activate the plugin from the installed plugins section.
+
+### Installation via FTP
+1. Connect to your server using an FTP client and navigate to the `/wp-content/plugins/` directory.
+2. Clone the repository:
+   ```
+   git clone https://github.com/fdaniel-alvarez-dev/portafolio_web_ongs.git
+   ```
+3. Navigate to the plugin directory:
+   ```
+   cd portafolio_web_ongs/ngo-easybuilder/
+   ```
+4. Activate the plugin from the WordPress admin panel.
+
+---
+
+## Plugin Usage
+
+### Initial Configuration
+1. After activation, navigate to **NGO EasyBuilder** in the main WordPress menu.
+2. Fill in your organization's information on the settings page.
+3. Configure payment integrations under the **Donations** tab.
+4. Customize email settings for notifications.
+
+### Donation System
+- The donation module is implemented in the file:
+  ```
+  class-donation-system.php
+  ```
+  Features include:
+  - Embed donation forms on any page.
+  - An admin panel for reviewing donations.
+  - Automatic generation of tax receipts.
+  - Donation pattern analysis.
+
+- Example shortcode for embedding a donation form:
+  ```
+  [ngo_donation_form amount="50,100,200" recurring="true" campaign="clean-water"]
+  ```
+
+### Volunteer Management
+- The volunteer management system is implemented in:
+  ```
+  class-volunteer-manager.php
+  ```
+  Features include:
+  - Create volunteer profiles with skills and interests.
+  - Schedule events and assign volunteers.
+  - Track hours and generate certificates.
+  - Group communication by project.
+
+---
+
+## Advanced Customization
+
+For developers looking to extend functionality, the file:
+```
 Advanced_Customization_Custom_Post_Types_Projects
+```
+provides documentation on:
+- Creating additional custom fields.
+- Modifying taxonomies.
+- Integration with external APIs.
+- Hooks and filters for customization.
 
- proporciona documentación sobre:
+---
 
+## Example Campaign Setup
 
-
-Creación de campos personalizados adicionales
-
-Modificación de taxonomías
-
-Integración con APIs externas
-
-Hooks y filtros disponibles para personalización
-
-Ejemplo de Campaña
-
-El archivo
-
+The file:
+```
 Example_Creating_Campaign_Showcase
+```
+provides step-by-step instructions for:
+- Setting up a complete fundraising campaign.
+- Defining goals and timers.
+- Integrating with social media platforms.
+- Adding progress bars and counters.
 
- ofrece una guía paso a paso para:
+---
 
+## Plugin Structure
 
-
-Configurar una campaña completa de recaudación de fondos
-
-Establecer objetivos y temporizadores
-
-Integrar con redes sociales
-
-Implementar barras de progreso y contadores
-
-¿¿ Estructura del Plugin
-
+```
 ngo-easybuilder/
-¿¿¿ elementor/widgets/      # Widgets personalizados para Elementor
-¿¿¿ includes/               # Funcionalidades principales del plugin
-¿¿¿ Advanced_Customization_Custom_Post_Types_Projects  # Guía de personalización
-¿¿¿ Example_Creating_Campaign_Showcase  # Tutorial para campañas
-¿¿¿ class-donation-system.php          # Sistema de donaciones
-¿¿¿ class-volunteer-manager.php        # Gestión de voluntarios
-¿¿¿ ngo-easybuilder.php                # Archivo principal del plugin
-¿¿¿ README.md                          # Documentación
+â”œâ”€â”€ elementor/widgets/       # Custom widgets for Elementor
+â”œâ”€â”€ includes/                # Core functionalities of the plugin
+â”œâ”€â”€ Advanced_Customization_Custom_Post_Types_Projects  # Customization guide
+â”œâ”€â”€ Example_Creating_Campaign_Showcase  # Campaign tutorial
+â”œâ”€â”€ class-donation-system.php  # Donation system implementation
+â”œâ”€â”€ class-volunteer-manager.php  # Volunteer management implementation
+â”œâ”€â”€ ngo-easybuilder.php       # Main plugin file
+â”œâ”€â”€ README.md                 # Documentation
+```
 
+---
 
-¿ Documentación Adicional
+## Additional Documentation
 
-Para obtener información más detallada sobre cada componente:
+For detailed information on each component:
+- **Donation System**: [View Documentation](#)
+- **Volunteer Management**: [View Documentation](#)
+- **Elementor Widgets**: [View Documentation](#)
+- **APIs and Hooks**: [View Developer Documentation](#)
 
-Sistema de Donaciones: Ver documentación
+---
 
-Gestión de Voluntarios: Ver documentación
+## Contributing
 
-Widgets de Elementor: Ver documentación
+We welcome contributions to enhance NGO EasyBuilder. To contribute:
+1. Fork the repository.
+2. Create a branch for your feature:
+   ```
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```
+   git commit -m "Add some AmazingFeature"
+   ```
+4. Push to the branch:
+   ```
+   git push origin feature/AmazingFeature
+   ```
+5. Open a pull request.
 
-APIs y Hooks: Ver documentación para desarrolladores
+---
 
-¿ Contribución
+## License
 
-Agradecemos las contribuciones para mejorar NGO EasyBuilder. Si deseas contribuir:
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
 
-Haz un fork del repositorio
+---
 
-Crea una rama para tu característica (
+## Support
 
-git checkout -b feature/AmazingFeature
+Have questions or need assistance? Open an issue in this repository or contact our support team at [support@ngo-easybuilder.org](mailto:support@ngo-easybuilder.org).
 
-)
+---
 
-Haz commit de tus cambios (
+## Developed for organizations making the world a better place.
 
-git commit -m 'Add some AmazingFeature'
-
-)
-
-Push a la rama (
-
-git push origin feature/AmazingFeature
-
-)
-
-Abre un Pull Request
-
-¿ Licencia
-
-Este proyecto está licenciado bajo GNU General Public License v3.0 - consulta el archivo LICENSE para más detalles.
-
-¿ Soporte
-
-¿Tienes preguntas o necesitas ayuda? Abre un issue en este repositorio o contacta a nuestro equipo de soporte en support@ngo-easybuilder.org.
-
-Desarrollado con ¿¿ para organizaciones que hacen del mundo un lugar mejor.
-
-Visita el repositorio principal
+Visit the [main repository](https://github.com/fdaniel-alvarez-dev/portafolio_web_ongs) for more information.
