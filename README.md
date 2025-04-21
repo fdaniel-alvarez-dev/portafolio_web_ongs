@@ -88,4 +88,4 @@ For more details, review the LICENSE file in this repository.
 
 ---
 
-Developed with ❤️ to empower organizations making the world a better place.
+*Developed to empower organizations making the world a better place—where technology meets purpose.* 🌟
